@@ -1,2 +1,4 @@
-# user_management
-The goal of this project is to create a serverless application (a python lambda function from AWS) which will scrape data for newly added Buildkite users every month. 
+# User Management Through Buildkite
+
+
+The goal of this project is to create a serverless application (a python lambda function from AWS) which scrapes data for newly added Buildkite users every month. 
