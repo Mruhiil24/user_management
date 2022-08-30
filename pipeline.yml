@@ -1,0 +1,11 @@
+steps:
+ - label: 'Create & upload Docker Image to AWS/ECR'
+
+   command: sh 2022/05/Buildkite/upload-docker-image.sh
+   plugins:
+     ecr#v2.3.0:
+       login: true
+       region: us-east-1
+       account_ids: "922775083351"
+   agents:
+     queue: docker-build 
